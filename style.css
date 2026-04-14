@@ -147,7 +147,9 @@ h4 {
 @media (min-width: 768px) {
     .testimonials {
         grid-template-columns: repeat(4, 1fr);
+        /* 4 Colonnes */
         grid-template-rows: repeat(3, auto);
+        /* 3 Lignes */
     }
 
     .card-daniel {
